@@ -17,7 +17,7 @@ module.exports = async function (context, req) {
     context.log(containerName);
     const containerClient = blobServiceClient.getContainerClient(containerName);
 
-    const blobName = 'data-' + date.toISOString() + '.json';
+    const blobName = `data-${date.toISOString()}.json`;
     //for await (const blob of containerClient.listBlobsFlat()) {
     //    context.log(`ListBlob: ${blob.name}`);
     //}
