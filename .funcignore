@@ -1,0 +1,13 @@
+*.js.map
+*.ts
+.git*
+.vscode
+local.settings.json
+test
+tsconfig.json
+bootstrap
+tmp/
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+*.lnk
